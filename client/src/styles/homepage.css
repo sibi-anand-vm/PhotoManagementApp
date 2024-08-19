@@ -1,0 +1,94 @@
+/* Base Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .hero {
+    background-image: url('https://wallpapercave.com/wp/wp5144575.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 86.9vh; /* Ensures it covers the full height of the screen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+    padding: 20px;
+  }
+  
+  .hero-text {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .buttons {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .edit-btn,
+  .layout-btn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-btn:hover,
+  .layout-btn:hover {
+    background-color: #444;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .hero h2 {
+      font-size: 28px;
+    }
+  
+    .hero p {
+      font-size: 16px;
+    }
+  
+    .edit-btn,
+    .layout-btn {
+      padding: 8px 16px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero h2 {
+      font-size: 24px;
+    }
+  
+    .hero p {
+      font-size: 14px;
+    }
+  
+    .edit-btn,
+    .layout-btn {
+      padding: 6px 12px;
+    }
+  }
+  

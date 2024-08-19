@@ -1,0 +1,87 @@
+/* Styles for UploadPage */
+*{
+  margin: 0;
+  padding: 0;
+ 
+}
+#uploadpage{
+  padding-bottom: 13.6%;
+  background: -webkit-linear-gradient(right, #bdedb2, #e0b1dc, #878eb4, #efcfa4);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: auto auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  #galbtn{
+    margin-top: 5%;
+    width: 100px;
+    margin-left: 75%;
+  }
+  input[type="file"] {
+    margin-bottom: 10px;
+  }
+
+  .uphead{
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    font-size: 30px;
+    color: #de181fb4;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  input[type="text"], textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  @media screen and (max-width: 480px) {
+    /* Further adjustments for mobile devices */
+    #uploadpage {  
+      padding-bottom: 110%;
+    }
+  
+    form {
+      max-width: 90%;
+      padding: 10px;
+    }
+  
+    input[type="text"], textarea {
+      font-size: 14px;
+      padding: 6px;
+    }
+  
+    button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .uphead {
+      font-size: 20px;
+    }
+  
+    #galbtn {
+      width: 35%;
+      margin-top: 10px;
+      margin-left: 65%;
+    }
+  }

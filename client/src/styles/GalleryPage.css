@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  .photo-card {
+    width: 90px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-card h3 {
+    margin: 10px 0;
+  }
+  
+  .photo-card p {
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .photo-card a {
+    display: block;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .photo-card a:hover {
+    text-decoration: underline;
+  }
+  .search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    border: 5px solid #ff0000;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  @media (max-width: 600px) {
+    .search-bar {
+      width: 90%;
+    }
+  }
+  

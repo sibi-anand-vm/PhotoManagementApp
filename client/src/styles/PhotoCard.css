@@ -1,0 +1,13 @@
+/* Styles specific to PhotoCard */
+*{
+  margin: 0;
+  padding: 0;
+}
+.photo-card{
+  width: 30%;
+}
+.photo-card img {
+    width: 80%;
+    height: 40px;
+  }
+  
